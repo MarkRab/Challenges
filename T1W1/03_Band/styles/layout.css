@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+}
+
+.navul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navul li {
+    display: inline-box;
+
+}
+
+.margin-btm {
+    margin-bottom: 2rem;
+}
+
+.members {
+    margin-bottom: 2rem; 
+}

@@ -1,0 +1,110 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    color: #8B4513;
+    }
+
+.container {    
+    background-image: url(https://i.pinimg.com/564x/4c/65/f9/4c65f913798dcd566fb929d0973a37e6.jpg);
+    width: 90%;
+    margin:1em;
+    padding:1em; 
+} 
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    margin: 1rem 1rem;
+    background-image: url(https://pic.616pic.com/bg_w1180/00/00/44/YMoaj4o9M6.jpg);
+    font-style: italic
+}
+
+h2{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+ li{
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+img{
+    margin: 0.4rem 1rem;
+    min-width:100px;
+    width:50%;
+    filter: drop-shadow(10px 3px 10px black)
+}
+
+a{
+    text-decoration-line: none;
+    border-bottom: 0.1em solid blue
+}
+
+a:hover{
+    color: red;
+    border-bottom:0.1em solid red;
+}
+
+a:visited{
+    color: rebeccapurple;
+    border-bottom:0.1em solid rebeccapurple;    
+}
+
+a:active{
+    color: orange;
+    border-bottom:0.1em solid orange; 
+}
+
+
+.recipe_block:hover{
+    background-color: rgba(255,255,255,0.5);
+
+}
+
+.hori_line {
+ height: 0.1em;
+ background-color: #A9A9A9;
+}
+
+@media only screen and (min-width: 1201px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 5px;
+    }
+}

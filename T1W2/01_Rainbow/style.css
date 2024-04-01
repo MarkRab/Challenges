@@ -1,0 +1,38 @@
+
+body{
+    box-sizing: border-box;
+}
+
+#one {
+    position:absolute;
+    border-radius:50%;
+    height:500px;
+    width:500px;
+    background-color: orange;
+    border:50px solid red;
+    z-index: 0;
+}
+
+.two {
+    position:relative;
+    left:100px;
+    top:100px;
+    border-radius:50%;
+    height:300px;
+    width:300px;
+    background-color: green;
+    border:50px solid yellow;
+    z-index: 1;
+}
+
+.three {
+    position:relative;
+    left:200px;
+    top:-200px;
+    border-radius:50%;
+    height:100px;
+    width:100px;
+    background-color: rebeccapurple;
+    border:50px solid royalblue;
+    z-index: 2;
+}

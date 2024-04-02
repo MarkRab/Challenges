@@ -50,7 +50,6 @@
 }
 
 body{
-    width:80%;
     margin: auto;
     background-color: rgb(255, 250, 205,0.9);
     background-image: url("https://lastfm.freetls.fastly.net/i/u/770x0/fb7c9f946e3264bc76a805e31cef83c4.jpg#fb7c9f946e3264bc76a805e31cef83c4");
@@ -61,30 +60,106 @@ body{
 .stickyArrow{
     position: sticky;
     bottom: 50px;
-    right:250px;
+    right:350px;
 }
 
 .arrowBack{
+    position:absolute;
+    right: 3vw;
+    bottom: 3vh;
     width:0px;
     height:0px;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-bottom: 50px solid orange;
+    border-bottom: 50px solid rgb(255, 81, 0);
+    color:white;
 }
 
 .arrowBack p {
     position:relative;
     right:14px;
-    top:30px;
+    top:20px;
     font-size: 0.8rem;
+}
+
+.arrowBack p a{
+    color:white;
+    font-weight: bold;
+}
+
+.arrowBack p a:link { 
+    text-decoration: none; 
+  } 
+  .arrowBack p a:visited { 
+    text-decoration: none; 
+  } 
+  .arrowBack p a:hover { 
+    text-decoration: none; 
+  } 
+  .arrowBack p a:active { 
+    text-decoration: none; 
+  }
+
+.arrowBack p:hover {
+    color:white;
 }
 
 .welcome {
     width:100%;
-    height:20vh;
+    height:3rem;
 }
 
 .welcome p{
     text-align: center;
     font-size: 5rem;
 }
+
+#ocWhite {
+    width: 30%
+}
+
+.welcome p {
+    font-size:3rem;
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+    user-select: none;
+}
+
+@media only screen and (min-width: 1201px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 5px;
+    }
+}
+
+
